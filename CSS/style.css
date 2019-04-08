@@ -15,8 +15,11 @@ img {
     height: 170px;
     border: 2px black solid;
 }
-section {
-    border:2px red solid;
+.greyBorder {
+    border: 2px hsl(208, 11%, 90%) solid;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
 }
 .desktopSizing{
     width: 300px;
@@ -32,6 +35,12 @@ section {
 .faviconSize {
     width: 20px;
     height: 20px;
-    float: left;
+    /* float: left; */
     padding: 10px;
+}
+.topMargin {
+    margin: 100px 0px 20px 0px;
+}
+.bottomMargin {
+    margin: 20px 0px 100px 0px;
 }
