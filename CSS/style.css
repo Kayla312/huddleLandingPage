@@ -1,9 +1,27 @@
-/* .mainSpacing{
-   margin: 100px, 50px, 100px, 50px;
+/* header {
+    background-color: hsl(193, 100%, 96%);
 } */
+main {
+    background-color: white;
+}
+footer {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.mainSpacing{
+    margin-right: 10%;
+    margin-left: 10%;
+    /* background-color: white; */
+ }
+.centerThis{
+    text-align: center;
+}
 
 .lightBlue {
     background-color: hsl(193, 100%, 96%);
+}
+.container {
+    margin: 8%;
 }
 
 .darkBlue{
@@ -20,6 +38,7 @@ img {
     border-radius: 20px;
     padding: 20px;
     margin: 20px 0px 20px 0px;
+    box-shadow: blur;
 }
 .desktopSizing{
     width: 300px;
@@ -32,6 +51,9 @@ img {
 .rightJustify {
     float: right;
 }
+.leftJustify {
+    float: left;
+}
 .faviconSize {
     width: 20px;
     height: 20px;
@@ -39,8 +61,18 @@ img {
     padding: 10px;
 }
 .topMargin {
-    margin: 100px 0px 20px 0px;
+    margin: 80px 0px 20px 0px;
 }
 .bottomMargin {
-    margin: 20px 0px 100px 0px;
+    margin: 20px 0px 80px 0px;
 }
+button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    }
