@@ -19,6 +19,7 @@ img {
     border: 2px hsl(208, 11%, 90%) solid;
     border-radius: 20px;
     padding: 20px;
+    box-shadow: 2px 2px 2px 2px lightgrey;
     margin: 20px 0px 20px 0px;
 }
 .desktopSizing{
