@@ -33,6 +33,24 @@ button {
     cursor: pointer;
     border-radius: 16px;
 }
+#theWhiteBtn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+/* Spacing and borders for main Section of text/information */
+main {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: block;
+}
 /* Shadow boxes and border around main content on page */
 .greyBorder {
     border-radius: 20px;
@@ -79,3 +97,14 @@ button {
 }
 
 /* FOOTER SECTION */
+.column {
+    float: left;
+    width: 33.33%;
+}
+  
+  /* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
